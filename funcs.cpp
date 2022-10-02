@@ -1,5 +1,7 @@
 #include <iostream>
 #include "funcs.h"
 
-// add functions here
+bool isDivisibleBy(int n, int d) {
+    return n % d == 0;
+}
 

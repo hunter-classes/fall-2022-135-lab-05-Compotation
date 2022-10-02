@@ -2,4 +2,10 @@
 #include "doctest.h"
 #include "funcs.h"
 
-// add your tests here
+TEST_CASE("task a") {
+    CHECK(isDivisibleBy(100, 25) == true);
+    CHECK(isDivisibleBy(35, 17) == false);
+    CHECK(isDivisibleBy(0, 5) == true);
+    CHECK(isDivisibleBy(15, 15) == true);
+    CHECK(isDivisibleBy(2, 5) == false);
+}
