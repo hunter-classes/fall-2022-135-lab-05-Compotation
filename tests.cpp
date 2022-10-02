@@ -44,3 +44,11 @@ TEST_CASE("task e") {
     CHECK(isTwinPrime(3117) == false);
     CHECK(isTwinPrime(4517) == true);
 }
+
+TEST_CASE("task f") {
+    CHECK(nextTwinPrime(20477) == 20479);
+    CHECK(nextTwinPrime(20479) == 20507);
+    CHECK(nextTwinPrime(1) == 3);
+    CHECK(nextTwinPrime(-10) == 3);
+    CHECK(nextTwinPrime(17) == 19);
+}

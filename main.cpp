@@ -10,5 +10,6 @@ int main()
   nextPrime(17);
   countPrimes(2, 10);
   isTwinPrime(3);
+  nextTwinPrime(5);
   return 0;
 }
