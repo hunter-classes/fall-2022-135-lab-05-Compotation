@@ -34,3 +34,13 @@ TEST_CASE("task d") {
     CHECK(countPrimes(720, 726) == 0);
     CHECK(countPrimes(4660, 4724) == 7);
 }
+
+TEST_CASE("task e") {
+    CHECK(isTwinPrime(17) == true);
+    CHECK(isTwinPrime(5) == true);
+    CHECK(isTwinPrime(13) == true);
+    CHECK(isTwinPrime(0) == false);
+    CHECK(isTwinPrime(-10) == false);
+    CHECK(isTwinPrime(3117) == false);
+    CHECK(isTwinPrime(4517) == true);
+}
