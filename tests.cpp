@@ -9,3 +9,12 @@ TEST_CASE("task a") {
     CHECK(isDivisibleBy(15, 15) == true);
     CHECK(isDivisibleBy(2, 5) == false);
 }
+
+TEST_CASE("task b") {
+    CHECK(isPrime(0) == false);
+    CHECK(isPrime(1) == false);
+    CHECK(isPrime(-7) == false);
+    CHECK(isPrime(2) == true);
+    CHECK(isPrime(7919) == true);
+    CHECK(isPrime(7920) == false);
+}
