@@ -26,3 +26,11 @@ TEST_CASE("task c") {
     CHECK(nextPrime(17) == 19);
     CHECK(nextPrime(7825) == 7829);
 }
+
+TEST_CASE("task d") {
+    CHECK(countPrimes(-1, 0) == 0);
+    CHECK(countPrimes(2, 2) == 1);
+    CHECK(countPrimes(1, 2) == 1);
+    CHECK(countPrimes(720, 726) == 0);
+    CHECK(countPrimes(4660, 4724) == 7);
+}
