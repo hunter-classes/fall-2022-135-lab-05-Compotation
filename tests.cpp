@@ -18,3 +18,11 @@ TEST_CASE("task b") {
     CHECK(isPrime(7919) == true);
     CHECK(isPrime(7920) == false);
 }
+
+TEST_CASE("task c") {
+    CHECK(nextPrime(-10) == 2);
+    CHECK(nextPrime(0) == 2);
+    CHECK(nextPrime(14) == 17);
+    CHECK(nextPrime(17) == 19);
+    CHECK(nextPrime(7825) == 7829);
+}

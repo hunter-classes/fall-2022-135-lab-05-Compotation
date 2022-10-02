@@ -16,3 +16,11 @@ bool isPrime(int n) {
     }
     return true;
 }
+
+int nextPrime(int n) {
+    int nextPrime = n+1;
+    while (!isPrime(nextPrime)) {
+        nextPrime++;
+    }
+    return nextPrime;
+}
