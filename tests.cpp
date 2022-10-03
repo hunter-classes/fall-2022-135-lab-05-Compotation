@@ -52,3 +52,11 @@ TEST_CASE("task f") {
     CHECK(nextTwinPrime(-10) == 3);
     CHECK(nextTwinPrime(17) == 19);
 }
+
+TEST_CASE("task g") {
+    CHECK(largestTwinPrime(5, 18) == 17);
+    CHECK(largestTwinPrime(1, 31) == 31);
+    CHECK(largestTwinPrime(14, 16) == -1);
+    CHECK(largestTwinPrime(-10, -5) == -1);
+    CHECK(largestTwinPrime(859, 880) == 859);
+}
