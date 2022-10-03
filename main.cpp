@@ -5,11 +5,12 @@
 
 int main()
 {
-  isDivisibleBy(100, 25);
-  isPrime(7919);
-  nextPrime(17);
-  countPrimes(2, 10);
-  isTwinPrime(3);
-  nextTwinPrime(5);
+  std::cout << isDivisibleBy(100, 25) << std::endl;
+  std::cout << isPrime(7919) << std::endl;
+  std::cout << nextPrime(17) << std::endl;
+  std::cout << countPrimes(2, 10) << std::endl;
+  std::cout << isTwinPrime(3) << std::endl;
+  std::cout << nextTwinPrime(5) << std::endl;
+  std::cout << largestTwinPrime(5, 18) << std::endl;
   return 0;
 }
