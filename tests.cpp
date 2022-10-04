@@ -8,6 +8,7 @@ TEST_CASE("task a") {
     CHECK(isDivisibleBy(0, 5) == true);
     CHECK(isDivisibleBy(15, 15) == true);
     CHECK(isDivisibleBy(2, 5) == false);
+    CHECK(isDivisibleBy(126, 0) == false);
 }
 
 TEST_CASE("task b") {
